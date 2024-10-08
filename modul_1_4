@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main() {
+    // Mendefinisikan luas persegi panjang 
+    float panjang  = 8.0;
+    float lebar = 5.0;
+
+    // Menghitung luas segitiga
+    float Panjang_Persegi =  panjang * lebar;
+
+    // Menampilkan hasil
+    printf("Luas persegi panjang adalah: %.2f cm²\n", Panjang_Persegi);
+
+    return 0;
+}
