@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main() {
+    // Mendefinisikan panjang alas dan tinggi segitiga
+    float alas = 8.0;
+    float tinggi = 5.0;
+
+    // Menghitung luas segitiga
+    float luas_segitiga = 0.5 * alas * tinggi;
+
+    // Menampilkan hasil
+    printf("Luas segitiga adalah: %.2f cm²\n", luas_segitiga);
+
+    return 0;
+}
